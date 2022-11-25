@@ -1,0 +1,35 @@
+body.dark-theme{
+       /* HSL Color mode */
+       --first-color-secind: hsl(var(--hue-color), 30%, 61%);
+       --title-color: hsl(var(--hue-color), 8%, 95%);
+       --text-color: hsl(var(--hue-color), 8%, 75%);
+       --input-color: hsl(var(--hue-color), 29%, 16%);
+       --body-color: hsl(var(--hue-color), 28%, 12%);
+       --container-color: hsl(var(--hue-color), 29%, 16%);
+}
+
+<div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/yub-iqbal-139059254/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/iqballaayyub._/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+
+              <a
+                href="https://github.com/Iqballaayyub"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
